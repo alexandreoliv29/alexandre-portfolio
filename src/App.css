@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
+
+*{
+  background-color: #13131F;
+  font-family: 'Poppins';
+}
 .App {
   text-align: center;
 }
@@ -36,3 +42,22 @@
     transform: rotate(360deg);
   }
 }
+
+.headerImg{
+  border-radius: 100%;
+}
+
+#buttonCV{
+  color: #FFF;
+  background-color: #7C3DCC;
+  border: 1px solid;
+  border-radius: 10px;
+}
+#buttonContact{
+  color: #FFF;
+  background-color: #13131F;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+
