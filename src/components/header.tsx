@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react';
 
 export default function Header() {
     return (
@@ -7,10 +7,11 @@ export default function Header() {
                 <img className="headerImg" width={100} height={100} src="https://vinum-wine.s3.amazonaws.com/headerImg.jpg" alt="Ale" />
             </div>
             <div className="headerText d-column justify-content-center text-center">
-                <p className='text-white'>Olá, eu sou o Alexandre Oliveira</p>
-                <p className='text-white'>Desenvolvedor Full Stack</p>
+                <p className='title'>Olá, eu sou o </p>
+                <p className='titleBlue'>Alexandre Oliveira</p>
+                <p className='text'>Desenvolvedor Full Stack</p>
             </div>
-            <div className="headerButtons">
+            <div className="d-flex flex-column justify-content-center gap-3 px-4">
                 <button type="button" id='buttonCV' className="btn">Download CV</button>
                 <button type="button" id='buttonContact' className="btn">Entrar em contato</button>
             </div>

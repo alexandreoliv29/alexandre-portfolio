@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
 
-*{
+* {
   background-color: #13131F;
   font-family: 'Poppins';
 }
+
 .App {
   text-align: center;
 }
@@ -38,26 +39,50 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.headerImg{
+.headerImg {
   border-radius: 100%;
 }
 
-#buttonCV{
+#buttonCV {
   color: #FFF;
-  background-color: #7C3DCC;
+  background-image: linear-gradient(90deg, rgba(130,87,230,0.8) .2%, rgba(121,48,190,0.648) 100%);
   border: 1px solid;
   border-radius: 10px;
 }
-#buttonContact{
+
+#buttonContact {
   color: #FFF;
   background-color: #13131F;
   border: 1px solid;
   border-radius: 10px;
+
 }
 
+.custom-toggler {
+  border-color: #FFF;
+  background-color: #FFF;
+}
 
+.custom-toggler::before {
+  background-color: white;
+}
+
+.title {
+  font-size: 32px;
+  color: #FFF
+}
+
+.titleBlue {
+  font-size: 32px;
+  color: #7C3DCC
+}
+.text{
+  color: #707982;
+  font-size: 1.2rem;
+}
