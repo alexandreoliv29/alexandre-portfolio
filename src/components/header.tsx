@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div className="container d-column">
             <div className='d-flex justify-content-center'>
-                <img className="headerImg" width={100} height={100} src="https://vinum-wine.s3.amazonaws.com/headerImg.jpg" alt="Ale" />
+                <img className="headerImg" width={100} height={100} src="https://my-bucket-ale.s3.amazonaws.com/headerImg.jpg" alt="Ale" />
             </div>
             <div className="headerText d-column justify-content-center text-center">
                 <p className='title'>Olá, eu sou o </p>

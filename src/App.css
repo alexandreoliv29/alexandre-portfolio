@@ -80,9 +80,16 @@
 
 .titleBlue {
   font-size: 32px;
-  color: #7C3DCC
+  color: #7C3DCC;
+  margin-top:  -20px;
+
 }
 .text{
   color: #707982;
   font-size: 1.2rem;
+}
+.navbar-toggler-icon{
+  background-color: #FFF;
+}
+.headerText{
 }
