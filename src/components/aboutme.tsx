@@ -5,9 +5,9 @@ export default function AboutMe() {
         <div className="container d-flex flex-column justify-content-center text-center mt-5">
 
             <h2 className='text-white'>Sobre mim</h2>
-            <p className='text'>Desenvolvedor Full Stack com grande experiência em Front End.
+            <p className='text'>Desenvolvedor Full Stack com grande experiência em Front End e desenvolvimento Mobile em React Native.
                 Atualmente estou aprimorando os conhecimentos em ReactJS, NestJS, Redux, JavaScript, TypeScript, Material UI e consumo de APIs REST.
-                Sou formado em Análise e Desenvolvimento de Sistemas pela UCB e sempre trabalhei em projetos gerenciados por Metodologias Ágeis.
+                Sou formado em Análise e Desenvolvimento de Sistemas pela UCB e Pós Graduado em Desenvolvimento WEB pela Faculdade Focus.
             </p>
         </div>
     )

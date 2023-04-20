@@ -3,6 +3,18 @@
 * {
   background-color: #13131F;
   font-family: 'Poppins';
+  color: '#FFF'
+}
+
+p {
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: 14;
+}
+
+h5 {
+  color: #FFF;
+  font-family: 'Poppins';
 }
 
 .App {
