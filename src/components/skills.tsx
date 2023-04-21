@@ -2,43 +2,61 @@ import React from "react";
 
 export default function Skills() {
     return (
-        <div className="container d-column justify-content-center text-center">
-            <h3 className="text-white">Habilidades</h3>
+        <section className="skills">
+            <div className="container">
+                <h2 className="text-white">Habilidades</h2>
+                <div className="cards">
 
-            <div className="card-group d-flex justify-content-center space-between">
-                <div className="card">
-                    <img src="https://my-bucket-ale.s3.amazonaws.com/icons/html.svg" className="card-img-top" alt="HTML5" width={50} height={50} />
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                    <div className="d-flex justify-content-around">
+                        <div className="box">
+                            <h5 className="card-title">HTML5</h5>
+                            <img src="https://my-bucket-ale.s3.amazonaws.com/icons/html.svg" className="card-img-top" alt="HTML5" />
+                        </div>
+                        <div className="box">
+                            <h5 className="card-title">CSS3</h5>
+                            <img src="https://my-bucket-ale.s3.amazonaws.com/icons/css.svg" className="card-img-top" alt="CSS3" />
+                        </div>
                     </div>
-                </div>
-                <div className="card">
-                    <img src="https://my-bucket-ale.s3.amazonaws.com/icons/css.svg" className="card-img-top" alt="CSS3"  width={50} height={50}/>
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+
+                    <div className="d-flex justify-content-around mt-5">
+                        <div className="box">
+                            <h5 className="card-title">ReactJS</h5>
+                            <img src="https://my-bucket-ale.s3.amazonaws.com/icons/react.svg" className="card-img-top" alt="HTML" />
+                        </div>
+                        <div className="box">
+                            <h5 className="card-title">React Native</h5>
+                            <img src="https://my-bucket-ale.s3.amazonaws.com/icons/react.svg" className="card-img-top" alt="..." />
+                        </div>
                     </div>
+
+
+                    <div className="d-flex justify-content-around mt-5">
+                        <div className="box">
+                            <h5 className="card-title">JavaScript</h5>
+                            <img src="https://my-bucket-ale.s3.amazonaws.com/icons/javascript.svg" className="card-img-top" alt="HTML" />
+                        </div>
+                        <div className="box">
+                            <h5 className="card-title">Material UI</h5>
+                            <img src="https://my-bucket-ale.s3.amazonaws.com/icons/materialui.svg" className="card-img-top" alt="..." />
+                        </div>
+                    </div>
+
+
+                    <div className="d-flex justify-content-around mt-5">
+                        <div className="box">
+                            <h5 className="card-title">Redux</h5>
+                            <img src="https://my-bucket-ale.s3.amazonaws.com/icons/redux.svg" className="card-img-top" alt="HTML" />
+                        </div>
+                        <div className="box">
+                            <div className="card-body">
+                                <h5 className="card-title">TypeScript</h5>
+                            </div>
+                            <img src="https://my-bucket-ale.s3.amazonaws.com/icons/typescript.svg" className="card-img-top" alt="..." />
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div className="card-group">
-                <div className="card">
-                    <img src="https://my-bucket-ale.s3.amazonaws.com/icons/html.svg" className="card-img-top" alt="HTML" width={50} height={50} />
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div className="card">
-                    <img src="..." className="card-img-top" alt="..." width={50} height={50}  />
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     )
 }

@@ -13,8 +13,53 @@ p {
 }
 
 h5 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #8257E6;
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
   color: #FFF;
   font-family: 'Poppins';
+}
+
+.box {
+  position: relative;
+  text-align: center;
+  background-color: #212121;
+  width: 10rem;
+  aspect-ratio: 1;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 2.5rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+
+.cards {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0.3rem;
+  background-image: linear-gradient(90deg, #8257E6 0%, #A40EE4 92.32%);
+  bottom: -0.1rem;
+  left: 0;
+}
+
+.card-img-top {
+  width: 4rem;
 }
 
 .App {
@@ -63,16 +108,16 @@ h5 {
 
 #buttonCV {
   color: #FFF;
-  background-image: linear-gradient(90deg, rgba(130,87,230,0.8) .2%, rgba(121,48,190,0.648) 100%);
+  background-image: linear-gradient(90deg, rgba(130, 87, 230, 0.8) .2%, rgba(121, 48, 190, 0.648) 100%);
   border: 1px solid;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 #buttonContact {
   color: #FFF;
-  background-color: #13131F;
+  background-color: #212121;
   border: 1px solid;
-  border-radius: 10px;
+  border-radius: 20px;
 
 }
 
@@ -93,15 +138,29 @@ h5 {
 .titleBlue {
   font-size: 32px;
   color: #7C3DCC;
-  margin-top:  -20px;
+  margin-top: -20px;
 
 }
-.text{
+
+.text {
   color: #707982;
   font-size: 1.2rem;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
   background-color: #FFF;
 }
-.headerText{
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cover ::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
 }
