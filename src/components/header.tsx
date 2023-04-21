@@ -12,11 +12,9 @@ export default function Header() {
                 <p className='text'>Desenvolvedor Full Stack</p>
             </div>
             <div className="d-flex flex-column justify-content-center gap-3 px-4">
-                <button type="button" id='buttonCV' className="btn">Download CV</button>
-                <button type="button" id='buttonContact' className="btn">Entrar em contato</button>
+                <button type="button" id='buttonCV' className="btn textGraySmall   ">Download CV</button>
+                <button type="button" id='buttonContact' className="btn textGraySmall  ">Entrar em contato</button>
             </div>
-
-
 
         </div>
     )

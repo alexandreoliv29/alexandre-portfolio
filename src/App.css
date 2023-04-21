@@ -1,50 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,100&display=swap');
 
-* {
-  background-color: #13131F;
-  font-family: 'Poppins';
-  color: '#FFF'
+:root{
+  --purple: #8257E6;
+  --gray: #707982;
+  --background: #13131F;
+  --card: #212121;
 }
 
-p {
+.all{
+  background-color: var(--background);
+}
+
+
+.textGraySmall {
+  font-family: 'Poppins';
+  font-size: 14;
+  color: var(--gray) 
+}
+
+.textWhiteSmall {
   color: #FFF;
   font-family: 'Poppins';
   font-size: 14;
 }
 
-h5 {
-  font-family: 'DM Sans', sans-serif;
+
+.textPurpleSmall {
+  font-family: 'Poppins';
   font-size: 1.6rem;
   font-weight: 500;
   color: #8257E6;
   margin-bottom: 1.5rem;
 }
 
-.card-title {
-  color: #FFF;
-  font-family: 'Poppins';
-}
 
-.box {
-  position: relative;
+.card {
+  background-color: var(--card);
+  width: 12rem;
   text-align: center;
-  background-color: #212121;
-  width: 10rem;
   aspect-ratio: 1;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border-top-left-radius: 2.5rem;
-  cursor: pointer;
-  transition: 0.2s;
+
 }
 
-
-.cards {
-  flex-wrap: wrap;
+.insideCard{
+  padding: 20px;
   justify-content: center;
+  align-self: center;
+  flex-direction: column;
 }
 
 .card::after {
@@ -62,45 +65,6 @@ h5 {
   width: 4rem;
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .headerImg {
   border-radius: 100%;
@@ -111,11 +75,12 @@ h5 {
   background-image: linear-gradient(90deg, rgba(130, 87, 230, 0.8) .2%, rgba(121, 48, 190, 0.648) 100%);
   border: 1px solid;
   border-radius: 20px;
+
 }
 
 #buttonContact {
   color: #FFF;
-  background-color: #212121;
+  background-color: var(--card);
   border: 1px solid;
   border-radius: 20px;
 
@@ -142,14 +107,15 @@ h5 {
 
 }
 
+.navbar{
+  background-color: var(--card);
+}
+
 .text {
   color: #707982;
   font-size: 1.2rem;
 }
 
-.navbar-toggler-icon {
-  background-color: #FFF;
-}
 
 .container {
   margin-right: auto;
